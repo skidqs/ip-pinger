@@ -83,6 +83,8 @@ def ip_pinger():
         try:
             clear_screen()
             current_time = datetime.now().strftime('%H:%M:%S')
+            print(f"{CUSTOM_GREY} made by {CUSTOM_COLOR} https://github.com/skidqs {CUSTOM_GREY}")
+            print(f" ")
             print(f"{CUSTOM_GREY} ┌──[{CUSTOM_COLOR}pinger{CUSTOM_GREY}]-[~/{CUSTOM_COLOR}{user}{CUSTOM_GREY}]")
             ip_port = input(f" └───{CUSTOM_COLOR}➤  {CUSTOM_GREY}").strip().split()
             print(f" ")
