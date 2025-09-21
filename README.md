@@ -16,4 +16,4 @@ Includes optional async port scanning for TCP, UDP, HTTP, and HTTPS.
 
 ## Usage
 ```bash
-python ip_pinger.py
+python pinger.py
